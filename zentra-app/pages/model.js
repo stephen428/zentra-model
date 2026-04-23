@@ -154,7 +154,7 @@ export default function ModelPage() {
         {/* Model iframe — fills remaining space */}
         <iframe
           ref={iframeRef}
-          src="/model.html"
+          src="/modelfile.html"
           style={{ flex: 1, border: 'none', width: '100%' }}
           onLoad={() => {
             // Give iframe a moment to initialise, then signal ready
